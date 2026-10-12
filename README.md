@@ -19,7 +19,10 @@ langchain_models/
 │   ├── 4_chatmodel_hf_api.py        # Hugging Face Inference API (Serverless)
 │   └── 5_chatmodel_hf_local.py      # Hugging Face Pipeline (Local inference)
 │
-├── EmbeddingModels/                 # Text Embeddings & Vector Representations (Upcoming)
+├── EmbeddingModels/
+│   ├── 1_embedding_openai_query.py  # Single query embeddings using OpenAI
+│   ├── 2_embedding_openai_docs.py   # Document batch embeddings using OpenAI
+│   └── 3_embedding_hf_local.py      # Local embeddings via Hugging Face MiniLM
 │
 ├── .gitignore                       # Git ignore rules for venv, env files, cache
 ├── .env.example                     # Sample environment variable template
